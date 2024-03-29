@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@media all and (max-width: 778px)  {
+    .Res-nav-con
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .Nav-bg-con
+    {
+        margin: 0px;
+    }
+    .Search-btn
+    {
+        margin-left: 15px;
+    }
+    .Nav-Items
+    {
+        margin-left: 30px;
+    
+    }
+    .Nav-logo-con
+    {
+        margin-left: 5px;
+    }
+    .Try-free-btn-con
+    {
+        text-align: center;
+        margin-left: 0px;
+    }
+    
+        .DashBoard-total-con
+        {
+         flex-wrap: wrap;
+        
+        }
+        .Service-con
+        {
+            flex-wrap: wrap;
+        }
+        .ref-link-input-box
+        {
+            width:200px;
+            font-size: 12px;
+            height: 35px;
+        }
+        .ref-code-input-box
+        {
+            height: 35px;
+            font-size: 12px;
+        }
+        .ref-link-head
+        {
+            font-size: 17px;
+        }
+        .ref-con
+        {
+            flex-direction: column;
+        }
+        .copy-btn
+        {
+            height: 35px;
+            width: 80px;
+            font-size: 15px;
+        }
+        .Table-bg-con
+        {
+            margin:0px;
+            margin-top: 80px;
+        }
+        .Table-con
+        {
+            margin-top: 30px;
+        }
+        .Pagination-con
+        {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .Footer-con
+        {
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+}
+
+
+@media (min-width:576px) and (max-width:778px) {
+    .ref-con
+        {
+            flex-direction: row;
+        }
+        .ref-link-input-box
+        {
+            width: 300px;
+            height: 45px;
+        }
+        .Pagination-con
+        {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+}
+   
